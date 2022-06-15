@@ -1,5 +1,5 @@
 import styles from './Statistics.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 export default function Statistics({ title, stats }) {
     return <section className={styles.statistics}>
@@ -16,7 +16,7 @@ export default function Statistics({ title, stats }) {
     </section> 
 }
 
-Statistics.propTypes = {
-    // username: PropTypes.string.isRequired,
-    // stats: PropTypes.objectOf(PropTypes.number),
-}
+// Statistics.propTypes = {
+//     username: PropTypes.string.isRequired,
+//     stats: PropTypes.objectOf(PropTypes.number),
+// }
