@@ -1,6 +1,8 @@
 import user from './Profile/user.json';
+import data from './Statistics//data.json';
 import Profile from './Profile/Profile';
 import Container from './Container/Container';
+import Statistics from './Statistics/Statistics';
 
 export const App = () => {
   return (
@@ -11,7 +13,8 @@ export const App = () => {
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
-      stats={user.stats} />
+        stats={user.stats} />
+      <Statistics title={`Statistics`} stats={data} />
      </Container>
   );
 };
