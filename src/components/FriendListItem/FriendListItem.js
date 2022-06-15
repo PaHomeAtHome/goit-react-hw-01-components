@@ -1,15 +1,16 @@
-// import styles from './FriendListItem.module.css';
-// import PropTypes from 'prop-types';
+import styles from './FriendListItem.module.css';
+import PropTypes from 'prop-types';
 
 export default function FriendListItem({ avatar, name, isOnline }) {
-    return <li className="item">
-        <span className="status">{isOnline}</span>
-        <img className="avatar" src={avatar} alt="User avatar" width="48" />
-        <p className="name">{name}</p>
+    return <li className={styles.item}>
+        <span className={styles.status} style={{backgroundColor: isOnline ? "green" : "red"}}></span>
+        <img className={styles.avatar} src={avatar} alt="User avatar" width="48" />
+        <p className={styles.name}>{name}</p>
     </li>
 }
 
-// Statistics.propTypes = {
-//     title: PropTypes.string,
-//     stats: PropTypes.arrayOf(PropTypes.object).isRequired
-// }
+FriendListItem.propTypes = {
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    isOnline: PropTypes.bool
+}
