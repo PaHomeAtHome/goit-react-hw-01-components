@@ -40,7 +40,7 @@
 
 .location {
     composes: tag;
-    color: yellow;
+    color: green;
     margin-bottom: 50px;
 }
 
