@@ -4,7 +4,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 10px 2px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -12,9 +11,10 @@
 
 .stats>li {
     display: block;
-    background-color:coral;
+    background: linear-gradient(to top,#0066AA, #FFFFFF);
     align-self: center;
     padding: 20px;
+    border: 1px solid black;
 }
 
 .profile {
@@ -24,12 +24,14 @@
     margin-right: auto;
     border: 5px solid black;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .username {
     color: white;
     font-size: 30px;
     font-weight: 700;
+    text-shadow: 0px 0px 20px black;
 }
 
 .tag {
@@ -57,6 +59,7 @@
     composes: label;
     font-size: 22px;
     font-weight: 600;
-    color: bisque;
+    color: white;
     margin-bottom: 0;
+    text-shadow: 0px 0px 10px black;
 }
