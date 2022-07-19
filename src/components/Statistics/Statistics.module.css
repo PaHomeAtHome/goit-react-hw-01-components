@@ -1,40 +1,40 @@
 .statistics {
-    margin-top: 100px;
-    text-align: center;
-    background: linear-gradient(#0066AA,#FFFFFF);
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 10px;
+  margin-top: 100px;
+  text-align: center;
+  background: linear-gradient(#0066aa, #ffffff);
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
 .title {
-    font-size: 32px;
-    font-weight: 700;
-    color: white;
-    text-shadow: 0px 0px 20px black;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0px 0px 20px black;
 }
 
 .statList {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    padding: 15px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 15px;
 }
 
 .item {
-    background-color: teal;
-    padding: 40px 20px;
-    box-shadow: 0px 0px 4px black;
+  background-color: teal;
+  padding: 40px 20px;
+  box-shadow: 0px 0px 4px black;
 }
 
 .label {
-    display: block;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
 }
 
 .percentage {
-    color: white;
-    font-size: 26px;
+  color: white;
+  font-size: 26px;
 }

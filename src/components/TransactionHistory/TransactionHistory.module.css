@@ -1,59 +1,60 @@
 .transactionHistory {
-    margin-top: 100px;
-    width: 100%;
-    text-align: center;
-    background-color: #0066AABB;
-    border-spacing: 0;
-    border-radius: 10px;
-    border: 5px solid black;
-    overflow: hidden;
-    box-sizing: border-box;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #0066aabb;
+  border-spacing: 0;
+  border-radius: 10px;
+  border: 5px solid black;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .transactionHistory th {
-    padding: 20px;
-    color: white;
+  padding: 20px;
+  color: white;
 }
 
-
-tr:not(:last-child), th, td {
-    padding: 20px;
-    font-size: 17px;
-    font-weight: 400;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    border-collapse: collapse;
-    border-bottom: 2px solid black;
+tr:not(:last-child),
+th,
+td {
+  padding: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  border-bottom: 2px solid black;
 }
 
 tr:last-child td {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 th {
-    background-color: #0066AA;
-    font-size: 22px;
-    font-weight: 700;
-    text-shadow: 0px 0px 5px black;
+  background-color: #0066aa;
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px black;
 }
 
-tr:nth-child(odd) td{
-    background-color: white;
-    color: black;
+tr:nth-child(odd) td {
+  background-color: white;
+  color: black;
 }
 
 tr:nth-child(even) td {
-    text-shadow: 0px 0px 2px black;
+  text-shadow: 0px 0px 2px black;
 }
 
 .transactionHistory th:not(:first-child):not(:last-child) {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .transactionHistory td:not(:first-child):not(:last-child) {
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /* tr:first-child th:first-child {
